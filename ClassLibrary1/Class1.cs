@@ -220,7 +220,7 @@ namespace MonitorUIforCA9
                     dt = s.Tables[0];
                     if (dt.Rows.Count > 0)
                     {
-                        rtstr = (string)dt.Rows[0]["BB01"] + ";" + (string)dt.Rows[0]["BB02"] + ";" + (string)dt.Rows[0]["BB03"] + ";" + (string)dt.Rows[0]["BB04"] + ";" + (string)dt.Rows[0]["BB05"] + ";" + (string)dt.Rows[0]["BB06"] + ";" + (string)dt.Rows[0]["BB07"];
+                        rtstr = (string)dt.Rows[0]["BB01"] + ";" + (string)dt.Rows[0]["BB02"] + ";" + (string)dt.Rows[0]["BB03"] + ";" + (string)dt.Rows[0]["BB04"] + ";" + (string)dt.Rows[0]["BLUID"] + ";" + (string)dt.Rows[0]["BB06"] + ";" + (string)dt.Rows[0]["BB07"];
                     }
                 }
                 oraDB.disconnect();

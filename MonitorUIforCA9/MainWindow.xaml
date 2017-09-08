@@ -6,7 +6,7 @@
         xmlns:mvvm="clr-namespace:BingLibrary.hjb;assembly=BingLibrary"
         xmlns:local="clr-namespace:MonitorUIforCA9"
         mc:Ignorable="d"
-        Title="MonitorUIforCA9 Ver20170811.01" Height="600" Width="800" DataContext="{mvvm:Data md}" Icon="database_64px_1201715_easyicon.net.ico">
+        Title="MonitorUIforCA9 Ver20170908.01" Height="600" Width="800" DataContext="{mvvm:Data md}" Icon="database_64px_1201715_easyicon.net.ico">
     <Window.Resources>
         <!--颜色转换器-->
         <local:ColorConverter x:Key="ColorConverter"/>
